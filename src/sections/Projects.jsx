@@ -5,6 +5,7 @@ import { Canvas } from "@react-three/fiber";
 import { Center, OrbitControls } from "@react-three/drei";
 import CanvasLoader from "../components/CanvasLoader";
 import DemoComputer from "../components/DemoComputer";
+import {ArrowUp} from '../assets/arrow-up.png'
 const projectCount = myProjects.length;
 
 const Projects = () => {
@@ -71,7 +72,7 @@ const Projects = () => {
               rel="noreferrer">
               <p>check live site</p>
               <img
-                src="src/assets/arrow-up.png"
+                src={ArrowUp}
                 alt="arrow"
                 className="w-3 h-3"
               />

@@ -1,3 +1,6 @@
+import {framer} from '../assets/framer.svg'
+import {figma} from '../assets/figma.svg'
+import {notion} from '../assets/notion.svg'
 export const navLinks = [
   {
     id: 1,
@@ -230,7 +233,7 @@ export const workExperiences = [
     duration: "2022 - Present",
     title:
       "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "src/assets/framer.svg",
+    icon: {framer},
     animation: "victory",
   },
   {

@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import {ArrowUp} from '../assets/arrow-up.png'
 const Contact = () => {
   const formRef = useRef();
   const [loading, setLoading] = useState(false);
@@ -108,7 +109,7 @@ const Contact = () => {
               className="bg-[#2e2e37] px-5 py-2 min-h-12 rounded-lg shadow-black-200 shadow-2xl flex justify-center items-center text-lg text-white gap-3">
               {loading ? "Sending" : "Send Message"}
               <img
-                src="src/assets/arrow-up.png"
+                src={ArrowUp}
                 alt="arrow up"
                 className="w-2.5 h-2.5 object-contain invert brightness-0"
               />
